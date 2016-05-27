@@ -11,22 +11,27 @@
 }
 .tab_style a {
   color: white;
+  text-shadow: 2px 2px 1px #A7A7A7;
+  text-shadow: 10px 3px 1px #999;
 }
 .active {
   padding-left: 2px;
   padding-top: 2px;
 }
 .navbar-inverse {
-  background: linear-gradient(to bottom right, #666, #111);
+  background: linear-gradient(to bottom right, #333, #000);
+  padding-bottom: 0.75em;
 }
 /*Styling for the logo title thingy.*/
 .page_header {
   /*width: ;*/
   font-size: 2em;
+  font-family: monospace;
   color: white;
   list-style: none;
   margin-top: 0.5em;
-  text-shadow: 2px 2px 2px #D7D7D7;
+  text-shadow: 2px 2px 1px #A7A7A7;
+  text-shadow: 20px 3px 1px #444;
 }
 /*Floats used to style headers and a few other elements like nav tabs.*/
 .right {
@@ -43,6 +48,7 @@
   width: 80%;
   margin-left:10%;
   margin-right: 10%;
+  padding-bottom: 3em;
 }
 /*Styling applied only to the bottom columns.*/
 .sub_column {
@@ -74,8 +80,13 @@
   font-size: 1.5em;
 
 }
+.top_header {
+  font-size: 5em;
+  color: #FFF;
+  padding-bottom: 3em;
+}
 /*Test changes inverting column colors. Can be refactored into previous CSS*/
 .column_header, .column_text, .column_gradient {
-  background: #222;
+  background: #111;
   color: #E7E7E7;
 }
