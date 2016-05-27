@@ -122,3 +122,81 @@
   margin-left: 5%;
   margin-bottom: 5%;
 }
+/*Begin media query section*/
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1200px) {
+  .top_header {
+    font-size: 3em;
+  }
+  .short_top_header {
+    font-size: 2em;
+  }
+
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .sub_column {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .top_column {
+    padding-bottom: 0;
+  }
+  .top_header {
+    font-size: 2em;
+  }
+  .short_top_header {
+    font-size: 1.5em;
+  }
+  .page_header {
+    font-size: 1.5em;
+  }
+}
+@media only screen and (min-device-width : 530px) and (max-device-width : 768px) {
+  .sub_column {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .top_column {
+    margin-top: 6em;
+    padding-bottom: 0;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .top_header {
+    font-size: 1.5em;
+  }
+  .about_top {
+    margin-top: 8em;
+  }
+  .short_top_header {
+    font-size: 1.25em;
+  }
+  .page_header {
+    font-size: 1em;
+  }
+
+}
+@media only screen and (max-device-width : 530px) {
+  .sub_column {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .top_column {
+    margin-top: 6em;
+    padding-bottom: 0;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .top_header {
+    font-size: 1.5em;
+  }
+  .about_top {
+    margin-top: 8em;
+  }
+  .short_top_header {
+    font-size: 1.25em;
+  }
+  .page_header {
+    font-size: 1em;
+  }
+
+}
