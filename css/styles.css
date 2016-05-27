@@ -1,6 +1,6 @@
 /*This is all custum styling added to the bootstrap nav used.*/
 .tab_style {
-  background-color: #555;
+  background-color: #222;
   border-color: #EEE;
   border-style: solid;
   border-width: 1px;
@@ -17,7 +17,7 @@
   padding-top: 2px;
 }
 .navbar-inverse {
-  background: linear-gradient(to bottom right, #CCC, #AAA);
+  background: linear-gradient(to bottom right, #666, #111);
 }
 /*Styling for the logo title thingy.*/
 .page_header {
@@ -44,25 +44,38 @@
   margin-left:10%;
   margin-right: 10%;
 }
+/*Styling applied only to the bottom columns.*/
+.sub_column {
+  width: 40%;
+  margin-left: 6.66%;
+}
 /*Styles for use in all columns.*/
 .all_column {
-  border-bottom: none;
-  border-right: none;
-  border-radius: 2%;
-  margin-top: 6em;
+  border-radius: 1%;
+  margin-top: 4em;
   border-style: solid;
   border-width: 3px;
-  border-color: #777;
+  border-color: #444;
+  border-bottom: none;
+  border-right: none;
 }
 .column_gradient {
   background: linear-gradient(to bottom right, #F1F1F1, white);
 }
 .column_header {
   font-family: monospace;
-  font-size: 3em;
+  font-size: 2em;
+  border-bottom-style: solid;
+  border-bottom-color: #333;
+  border-bottom-width: thin;
 }
 .column_text {
   font-family: monospace;
-  font-size: 2em;
+  font-size: 1.5em;
 
+}
+/*Test changes inverting column colors. Can be refactored into previous CSS*/
+.column_header, .column_text, .column_gradient {
+  background: #222;
+  color: #E7E7E7;
 }
