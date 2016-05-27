@@ -205,14 +205,14 @@
     margin-bottom: 5%;
   }
   .tab_style: {
-    font-size: 0.8em;
+    font-size: 0.5em;
   }
   .active {
     width: 100%;
     display: none !important;
   }
   .tab_style {
-    width: 100%;
+    width: 33%;
   }
 
 }
