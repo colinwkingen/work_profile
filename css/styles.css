@@ -1,8 +1,10 @@
+/*This is all custum styling added to the bootstrap nav used.*/
 .tab_style {
-  background-color: black;
-  border-color: grey;
+  background-color: #555;
+  border-color: #EEE;
   border-style: solid;
   border-width: 1px;
+  border-radius: 3%;
   font-size: 1.2em;
   font-family: monospace;
 
@@ -10,15 +12,23 @@
 .tab_style a {
   color: white;
 }
+.active {
+  padding-left: 2px;
+  padding-top: 2px;
+}
+.navbar-inverse {
+  background: linear-gradient(to bottom right, #CCC, #AAA);
+}
+/*Styling for the logo title thingy.*/
 .page_header {
   /*width: ;*/
   font-size: 2em;
   color: white;
   list-style: none;
   margin-top: 0.5em;
-
-
+  text-shadow: 2px 2px 2px #D7D7D7;
 }
+/*Floats used to style headers and a few other elements like nav tabs.*/
 .right {
   float: right;
 }
@@ -28,8 +38,31 @@
 .left{
   float: left;
 }
+/*Styling applied only to the top column.*/
 .top_column {
-  margin-top: 5em;
+  width: 80%;
+  margin-left:10%;
+  margin-right: 10%;
+}
+/*Styles for use in all columns.*/
+.all_column {
+  border-bottom: none;
+  border-right: none;
+  border-radius: 2%;
+  margin-top: 6em;
   border-style: solid;
-  border-color: black;
+  border-width: 3px;
+  border-color: #777;
+}
+.column_gradient {
+  background: linear-gradient(to bottom right, #F1F1F1, white);
+}
+.column_header {
+  font-family: monospace;
+  font-size: 3em;
+}
+.column_text {
+  font-family: monospace;
+  font-size: 2em;
+
 }
