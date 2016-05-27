@@ -5,8 +5,9 @@
   border-style: solid;
   border-width: 1px;
   border-radius: 3%;
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-family: monospace;
+  /*padding: 0.5em;*/
 
 }
 .tab_style a {
@@ -78,6 +79,7 @@
 .column_text {
   font-family: monospace;
   font-size: 1.5em;
+  list-style: square;
 
 }
 .top_header {
@@ -89,4 +91,13 @@
 .column_header, .column_text, .column_gradient {
   background: #111;
   color: #E7E7E7;
+}
+.social_link {
+  color: white;
+  background-color: #444;
+}
+.social_link:hover {
+  color: black;
+  background-color: #EEE;
+  text-decoration: none;
 }
