@@ -126,7 +126,6 @@
   .short_top_header {
     font-size: 2em;
   }
-
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
   .sub_column {
@@ -169,7 +168,6 @@
   .page_header {
     font-size: 1em;
   }
-
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 530px) {
   .sub_column {
@@ -210,5 +208,4 @@
   .tab_style {
     width: 100%;
   }
-
 }
